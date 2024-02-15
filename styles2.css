@@ -1,0 +1,53 @@
+.video-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure the overlay is above the video */
+  }
+  
+  .text-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-overlay p {
+    font-size: 1.2rem;
+  }
+  
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+
+  #controls{
+    display: flex;
+    align-items: center;
+  }
+  #controls div{
+    padding: 6%;
+    margin: 4%;
+    background-color: gray;
+    border-radius: 25%;
+  }
+
+  .dis-word{
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid rgba(255, 255, 0, 0);
+    border-radius: 5px;
+    font-size: 1.4rem !important;
+  }
+  .dis-word:hover{
+    background-color: lightgray;
+    color: black;
+    border: 1px solid yellow;
+    border-radius: 5px;
+  }
+  
